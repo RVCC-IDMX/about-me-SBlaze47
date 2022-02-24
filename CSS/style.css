@@ -21,6 +21,21 @@ body {
     margin-left:2em;
 }
 
+#Gallery{
+
+    border: 5px dashed #6fa7f0;
+}
+
+#Gallery img {
+
+    max-width: 100%;
+
+}
+
+#gallery figure{
+
+    text-align: center;
+}
 
 
 
