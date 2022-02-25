@@ -24,6 +24,7 @@ body {
 #Gallery{
 
     border: 5px dashed #6fa7f0;
+    color: darkblue;
 }
 
 #Gallery img {
@@ -46,4 +47,29 @@ header{
     text-align: center;
 
 background-color: #6fa7f0;
+}
+
+#Lit {
+
+    border: 5px dashed darkblue;
+    color: darkblue;
+    margin: 3rem;
+    margin-bottom: 3rem;
+}
+
+#Lit div{
+
+    padding: 3rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#Lit div p:first-letter{
+
+    color: #6fa7f0;
+    float: left;
+    font-size: 3em;
+    padding:.5em;
+    line-height: .75;
+    border: 1px solid black
 }
