@@ -64,7 +64,7 @@ background-color: #6fa7f0;
     margin: 0 auto;
 }
 
-#Lit div p:first-letter{
+#Lit div p:first-child:first-letter {
 
     color: #6fa7f0;
     float: left;
