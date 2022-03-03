@@ -1,20 +1,35 @@
 body {
-   background-color: #fadbb3; 
+   background-color: lightblue; 
    font-family: "Source Code Pro";
    font-weight:600;
    text-align: center;
+   color: darkblue;
    
+}
+
+#hobbies{
+
+    display: flex; 
+flex-direction: column; 
+align-items: center;
+color: aqua;
+background-color: darkblue;
+border: 5px solid aqua;
+
 }
 
 #hobbies ul{
 
-    width: 50%;
+    color: aqua;
     margin-left: auto;
     margin-right:auto;
 
-    padding: 1rem;
+    padding: 3rem;
     box-shadow: 3px 3px 10px rgba(0,0,0,.5);
-    background-color: #6fa7f0;
+    text-align: center;
+    background-image: radial-gradient(#6fa7f0, darkblue);
+    border: 5px dashed aqua ;
+    
 }
 
 #hobbies ul li {
@@ -64,12 +79,42 @@ background-color: #6fa7f0;
     margin: 0 auto;
 }
 
-#Lit div p:first-child:first-letter {
 
-    color: #6fa7f0;
-    float: left;
-    font-size: 3em;
-    padding:.5em;
-    line-height: .75;
-    border: 1px solid black
+article p:nth-child(even):first-letter {
+
+color: aqua;
+font-size: 500%;
+border: 3.5px dotted aqua;
+padding-left: .5ex;
+padding-right: .5ex;
+float: left;
+margin-right: .5ex;
+background-image: radial-gradient(#6fa7f0, darkblue);
+font-family:'Times New Roman', Times, serif ;
+
+}
+
+  
+
+/* tablet state */
+@media screen and (min-width: 960px) {
+
+    figure{
+
+        display:grid;
+        grid-template-columns: 2fr 1fr; 
+      
+    }
+
+    figcaption{
+
+        display:flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+margin-left: 1rem;
+    }
+    body {
+        color: aqua
+    }
 }
