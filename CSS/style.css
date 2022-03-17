@@ -40,6 +40,14 @@ border: 5px solid aqua;
 
     border: 5px dashed #6fa7f0;
     color: darkblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#Gallery  hr {
+    display:none;
+}
+#Gallery h2 {
+    grid-column:1/-1;
 }
 
 #Gallery img {
@@ -75,8 +83,9 @@ background-color: #6fa7f0;
 #Lit div{
 
     padding: 3rem;
-    max-width: 40rem;
+    max-width: 100%;
     margin: 0 auto;
+    columns: 40rem;
 }
 
 
