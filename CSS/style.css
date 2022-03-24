@@ -61,6 +61,15 @@ border: 5px solid aqua;
     text-align: center;
 }
 
+#video{
+
+    border: 5px dashed darkblue;
+    color: darkblue;
+    text-align: center;
+    
+    
+}
+
 
 
 
@@ -124,6 +133,6 @@ font-size: 2rem;
 margin-left: 1rem;
     }
     body {
-        color: aqua
+        color: blue;
     }
 }
