@@ -43,6 +43,8 @@ border: 5px solid aqua;
     color: darkblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width:100%;
+    overflow:hidden;
 }
 #Gallery  hr {
     display:none;
@@ -69,6 +71,9 @@ border: 5px solid aqua;
     text-align: center;
     
     
+}
+#video iframe {
+    max-width:100%;
 }
 
 
@@ -150,7 +155,7 @@ margin-left: 1rem;
 #contact{
 
     padding: 1rem;
-    max-width: 800px;
+    max-width: 600px;
     align-items: center;
     margin: 2rem auto;
     background-color: darkblue;
@@ -208,6 +213,6 @@ font-size: 1rem;
    
 }
 
-#Reach-out-to-me h2{
-
+main img{
+max-width: 100%;
 }
