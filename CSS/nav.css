@@ -110,7 +110,7 @@ such that no text wraps
 .navbar{
 
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     
     
 }

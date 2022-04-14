@@ -9,8 +9,9 @@ body {
 }
 
 header img{
-    width: 200px;
+    width: 100px;
     max-width: 100%;
+    margin-top: 10px;
 }
 
 #hobbies{
