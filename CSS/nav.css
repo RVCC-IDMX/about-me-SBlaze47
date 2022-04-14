@@ -67,6 +67,10 @@ main{
  and then on hover
 */
 
+.navbar-links{
+    text-align: center;
+}
+
 .navbar-links a{
     color: whitesmoke;
     background-color: darkblue;
@@ -75,6 +79,7 @@ main{
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+
 }
 
 .navbar-links a:hover, .navbar-links a:focus{
@@ -99,6 +104,7 @@ such that no text wraps
 
     display: flex;
     justify-content: space-between;
+    
 }
 
 .navbar{
