@@ -1,5 +1,5 @@
 body {
-   background-color: lightblue; 
+   background-color: #faf0be; 
    font-family: "Source Code Pro";
    font-weight:600;
    text-align: center;
@@ -19,15 +19,16 @@ header img{
     display: flex; 
 flex-direction: column; 
 align-items: center;
-color: aqua;
+color: whitesmoke;
 background-color: darkblue;
-border: 5px solid aqua;
+border: 5px solid whitesmoke;
+margin-bottom: 10px;
 
 }
 
 #hobbies ul{
 
-    color: aqua;
+    color: whitesmoke;
     margin-left: auto;
     margin-right:auto;
 
@@ -35,7 +36,7 @@ border: 5px solid aqua;
     box-shadow: 3px 3px 10px rgba(0,0,0,.5);
     text-align: center;
     background-image: radial-gradient(#6fa7f0, darkblue);
-    border: 5px dashed aqua ;
+    border: 5px dashed whitesmoke ;
     
 }
 
@@ -45,7 +46,7 @@ border: 5px solid aqua;
 
 #Gallery{
 
-    border: 5px dashed #6fa7f0;
+    border: 5px dashed darkblue;
     color: darkblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -87,8 +88,10 @@ border: 5px solid aqua;
 header{
     font-family: Oswald;
     text-align: center;
+    color: whitesmoke;
+    border: solid whitesmoke 3px;
 
-background-color: #6fa7f0;
+background-color: darkblue;
 }
 
 #Lit {
@@ -231,3 +234,13 @@ main img{
 max-width: 100%;
 }
 
+#footer{
+
+    color: whitesmoke;
+    background-color: darkblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: solid whitesmoke;
+    border-width: 4px;
+}
